@@ -22,3 +22,4 @@ Also, check out this related repo: https://github.com/aljazceru/awesome-nostr
 - Matchmaking for videogames, where clients/servers submit offers via Nostr to start/host game matches.
 - To replace videogame servers, by sending game-state updates between clients via one or more relays. Multiple relays might be appropriate for redundancy.
 - Webpages, where each webpage is stored across multiple relays, making them virtually uncensorable.
+- Trading Card Game Database, cards are stored as notes and can be put together in deck lists to be shared, reviewed, etc. Games could even be played over nostr with a specialized client.
