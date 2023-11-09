@@ -22,3 +22,4 @@ Also, check out this related repo: https://github.com/aljazceru/awesome-nostr
 - Matchmaking for videogames, where clients/servers submit offers via Nostr to start/host game matches.
 - To replace videogame servers, by sending game-state updates between clients via one or more relays. Multiple relays might be appropriate for redundancy.
 - Webpages, where each webpage is stored across multiple relays, making them virtually uncensorable.
+- Chat with random people, like Omegle. Clients would post ephemeral events stating an interest in chatting, while other clients would randomly select a pub-key in one such ephemeral event. The chat would be E2EE. To be truly anonymous, the client would to connect to relays via Tor.
